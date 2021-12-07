@@ -54,7 +54,7 @@
           <configuration>
 	          <archive>
 		          <manifest>
-			          <mainClass>ibf2021.day1</mainClass>
+			          <mainClass>ibf2021.day1.FruitVending</mainClass>
 		          </manifest>
 	          </archive>
           </configuration>

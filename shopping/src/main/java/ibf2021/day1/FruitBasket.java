@@ -13,6 +13,10 @@ public class FruitBasket {
         }
     }
 
+    public List<String> itemCart() {
+        return fruitCart;
+    }
+
     public Boolean haveFruit(String fruit) {
         if (fruitCart.contains(fruit)) {
             return true;
@@ -28,6 +32,10 @@ public class FruitBasket {
     public void addFruit(String fruit) {
         fruitCart.add(fruit);
         System.out.println("Fruit Vending Bot: " + fruit + " added to cart");
+    }
+
+    public void addFruitDB(List basket) {
+        this.fruitCart = basket;
     }
 
     public void deleteFruit(int userChoice) {
